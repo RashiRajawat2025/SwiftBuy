@@ -5,7 +5,7 @@ export const DEPLOYED_URL = "https://swiftbuy-server-production.up.railway.app/"
 // change api
 
 export const api = axios.create({
-  baseURL: API_URL, 
+  baseURL: DEPLOYED_URL, 
   headers: {
     'Content-Type': 'application/json',
   },

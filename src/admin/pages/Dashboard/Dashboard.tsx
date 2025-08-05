@@ -1,6 +1,7 @@
 import  { useEffect, useState } from 'react'
 import AdminRoutes from '../../../routes/AdminRoutes'
-// import DrawerList from './DrawerList'
+
+import DrawerList from '../../components/DrawerList'
 import Navbar from '../../../admin seller/components/navbar/Navbar'
 import AdminDrawerList from '../../components/DrawerList'
 import { Alert, Snackbar } from '@mui/material'
